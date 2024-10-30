@@ -1,0 +1,13 @@
+﻿<Window x:Class="openCVproj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:openCVproj"
+        Title="Face and Eye Detection" Height="450" Width="800">
+    <Grid>
+        <Image Name="VideoImage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10">
+            <Button Name="StartButton" Content="Start" Width="100" Margin="5" Click="StartButton_Click"/>
+            <Button Name="StopButton" Content="Stop" Width="100" Margin="5" Click="StopButton_Click" IsEnabled="False"/>
+        </StackPanel>
+    </Grid>
+</Window>
